@@ -1,5 +1,5 @@
 # JS - Objects
-----
+
 ### Esercizi:
 
 ##### Snack 1
