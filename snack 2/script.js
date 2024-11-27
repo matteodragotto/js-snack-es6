@@ -18,5 +18,15 @@ for (i = 0; i < teams.length; i++) {
   teams[i]['falli-subiti'] = randomNumber()
 }
 
-
 console.log(teams);
+
+const newTeams = []
+for (let team of teams) {
+  newTeams.push(nome = team.nome, )
+}
+
+console.log(newTeams);
+
+
+
+
