@@ -1,3 +1,4 @@
+const message = document.querySelector('.message')
 const bicycles = [
   {nome: 'bici1', peso: 6},
   {nome: 'bici2', peso: 7},
@@ -18,5 +19,7 @@ for (i = 0; i < bicycles.length; i++) {
     biciLeggera = bicycles[i]
   }
 }
+
+message.innerHTML = 'La bici più leggera è la: ' + biciLeggera.nome
 
 console.log(biciLeggera);
