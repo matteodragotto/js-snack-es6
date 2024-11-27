@@ -22,7 +22,7 @@ console.log(teams);
 
 const newTeams = []
 for (let team of teams) {
-  newTeams.push(nome = team.nome, )
+  newTeams.push({nome: team.nome, 'falli-subiti': team['falli-subiti']})
 }
 
 console.log(newTeams);
